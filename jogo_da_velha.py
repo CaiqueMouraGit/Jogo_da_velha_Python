@@ -13,7 +13,6 @@ def Principal():
 
     while num_jogadas_atual < num_max_jogada and vitoria_Player_1 == False and vitoria_Player_2 == False:
 
-        CleanCode()
         PrintJogo()
 
         linha = int(input("Digite a linha da sua jogada: "))
@@ -34,7 +33,6 @@ def Principal():
             print("Digite uma nova linha e coluna")
 
         CleanCode()
-        PrintJogo()
 
         if num_jogadas_atual == (num_max_jogada - 1):
             print("Jogo encerrado")
