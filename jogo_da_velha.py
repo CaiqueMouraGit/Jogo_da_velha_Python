@@ -1,6 +1,6 @@
 import os
 
-matriz = ['L', 'L', 'L'], ['L', 'L', 'L'], ['L', 'L', 'L']
+matriz = ['_', '_', '_'], ['_', '_', '_'], ['_', '_', '_']
 vitoria_Player_1 = False
 vitoria_Player_2 = False
 
